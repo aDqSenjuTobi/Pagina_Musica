@@ -1,0 +1,29 @@
+code {
+  font-family: sourse-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to bottom right, #35374B, #344955, #50727B, #78A083);
+  text-align: center;
+  display: grid;
+  place-content: center;
+  margin-top: 100px;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #ffff;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
